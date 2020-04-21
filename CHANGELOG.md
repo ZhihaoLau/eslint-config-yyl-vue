@@ -2,9 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.4](https://github.com/ZhihaoLau/eslint-config-yyl-vue/compare/v0.2.3...v0.2.4) (2020-04-21)
+
+
 ### Features
 
-* 🎸 it will work ([554499d](https://github.com/ZhihaoLau/eslint-config-yyl-vue/commit/554499d3429ff5d6d716828685877257f0e6ef29))
+* 🎸 test bump ([b02c588](https://github.com/ZhihaoLau/eslint-config-yyl-vue/commit/b02c5888e0f888a29d0145f6f88a7a27f57d2094))
 
 ### [0.2.1](https://github.com/ZhihaoLau/eslint-config-yyl-vue/compare/v0.2.0...v0.2.1) (2020-04-21)
 
