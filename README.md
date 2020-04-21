@@ -3,7 +3,7 @@
 
 ## install
 ```bash
-yarn add eslint-config-yyl-vue prettier eslint 
+yarn add eslint-config-yyl-vue prettier eslint -D
 ```
 
 ## usage
