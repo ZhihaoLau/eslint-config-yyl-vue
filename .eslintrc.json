@@ -1,0 +1,66 @@
+{
+  "root": true,
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true //启动JSX
+    }
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    "$": true,
+    "Vue": true,
+    "Vuex": true,
+    "VueRouter": true,
+    "hiidoEvent": true
+  },
+  "extends": ["plugin:vue/essential", "prettier/vue"],
+  "plugins": ["vue", "prettier"],
+  "settings": {
+    "html/html-extensions": [".html", ".vue"] // consider .html and .we files as HTML
+  },
+  "rules": {
+    "no-debugger": 2,
+    "no-console": 1,
+    "func-names": 0,
+    "import/no-unresolved": 0,
+    "import/extensions": 0,
+    "import/prefer-default-export": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/first": 0,
+    "linebreak-style": 0,
+    "no-param-reassign": [2, { "props": false }],
+    "comma-dangle": [2, "never"],
+    "quote-props": ["error", "consistent"],
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "prefer-const": 0,
+    "global-require": 0,
+    "max-len": 0,
+    "require-await": "error",
+    "no-unused-vars": [
+      "error",
+      { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }
+    ],
+    "semi": ["error", "always"],
+    "no-undef": "error",
+    "quotes": ["error", "single"],
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 100,
+        "tabWidth": 2,
+        "singleQuote": true,
+        "semi": true,
+        "trailingComma": "none",
+        "bracketSpacing": true,
+        "jsxBracketSameLine": true,
+        "arrowParens": "always",
+        "quoteProps": "consistent"
+      }
+    ]
+  }
+}
