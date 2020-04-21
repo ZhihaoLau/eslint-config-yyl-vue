@@ -12,7 +12,7 @@
     "prettier": "prettier --write ./test/base/src/**/*.{js,vue}",
     "test": "npm run eslint && npm run prettier && npm run eslint",
     "commit": "git add . && git-cz",
-    "release": "standard-version && npm publish",
+    "release": "standard-version",
     "preRelease": "npm test"
   },
   "prettier": {
