@@ -11,8 +11,9 @@
     "eslint": "eslint --config ./.eslintrc.json --ext=js,vue ./test/base/src",
     "prettier": "prettier --write ./test/base/src/**/*.{js,vue}",
     "test": "npm run eslint && npm run prettier && npm run eslint",
-    "release": "standard-version",
-    "prepublishOnly": "npm test"
+    "commit": "git add . && git-cz",
+    "release": "standard-version && npm publish",
+    "preRelease": "npm test"
   },
   "prettier": {
     "printWidth": 100,
@@ -41,6 +42,7 @@
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-vue": "^5.2.2",
+    "git-cz": "^4.3.1",
     "prettier": "^2.0.4"
   },
   "devDependencies": {

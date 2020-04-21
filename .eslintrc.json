@@ -1,12 +1,5 @@
 {
   "root": true,
-  "parserOptions": {
-    "parser": "babel-eslint",
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "jsx": true //启动JSX
-    }
-  },
   "env": {
     "browser": true,
     "es6": true
@@ -20,8 +13,15 @@
   },
   "extends": ["plugin:vue/essential", "prettier/vue"],
   "plugins": ["vue", "prettier"],
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
   "settings": {
-    "html/html-extensions": [".html", ".vue"] // consider .html and .we files as HTML
+    "html/html-extensions": [".html", ".vue"]
   },
   "rules": {
     "no-debugger": 2,
