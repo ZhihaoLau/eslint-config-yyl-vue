@@ -29,10 +29,11 @@ yarn add eslint-config-yyl-vue prettier eslint -D
     "bracketSpacing": true,
     "jsxBracketSameLine": true,
     "arrowParens": "always",
+    "quoteProps": "consistent"
   },
   "scripts": {
-    "eslint": "eslint --ext=vue,js ./src",
-    "prettier": "prettier --write src/**/*.{vue,js}"
+    "eslint": "eslint --ext=vue,js ./",
+    "prettier": "prettier --write ./**/*.{vue,js}"
   }
 }
 ```
