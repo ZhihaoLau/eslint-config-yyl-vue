@@ -2,17 +2,17 @@ const obj = {
   'a': 3,
   'b': 0,
   '@': 2
-};
+}
 
 switch (obj.a) {
   case 1:
-    break;
+    break
   case 2:
-    break;
+    break
   case 3:
-    break;
+    break
   case 4:
-    break;
+    break
   default:
-    break;
+    break
 }

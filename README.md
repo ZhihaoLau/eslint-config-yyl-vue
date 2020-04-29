@@ -24,7 +24,7 @@ yarn add eslint-config-yyl-vue prettier eslint -D
     "printWidth": 100,
     "tabWidth": 2,
     "singleQuote": true,
-    "semi": true,
+    "semi": false,
     "trailingComma": "none",
     "bracketSpacing": true,
     "jsxBracketSameLine": true,

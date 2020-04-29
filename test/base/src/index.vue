@@ -9,8 +9,8 @@ export default {
   name: 'App',
   methods: {
     handleClick() {
-      console.log('blah');
+      console.log('blah')
     }
   }
-};
+}
 </script>

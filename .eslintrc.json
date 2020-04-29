@@ -45,7 +45,6 @@
       "error",
       { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }
     ],
-    "semi": ["error", "always"],
     "no-undef": "error",
     "quotes": ["error", "single"],
     "prettier/prettier": [
@@ -54,7 +53,7 @@
         "printWidth": 100,
         "tabWidth": 2,
         "singleQuote": true,
-        "semi": true,
+        "semi": false,
         "trailingComma": "none",
         "bracketSpacing": true,
         "jsxBracketSameLine": true,
