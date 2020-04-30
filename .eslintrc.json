@@ -36,7 +36,6 @@
     "no-param-reassign": [2, { "props": false }],
     "comma-dangle": [2, "never"],
     "quote-props": ["error", "consistent"],
-    "indent": ["error", 2, { "SwitchCase": 1 }],
     "prefer-const": 0,
     "global-require": 0,
     "max-len": 0,
@@ -46,7 +45,6 @@
       { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }
     ],
     "no-undef": "error",
-    "quotes": ["error", "single"],
     "prettier/prettier": [
       "error",
       {
