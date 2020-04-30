@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.10](https://github.com/ZhihaoLau/eslint-config-yyl-vue/compare/v0.2.9...v0.2.10) (2020-04-30)
+
+
+### Bug Fixes
+
+* 修复 三目运算符问题 ([550a506](https://github.com/ZhihaoLau/eslint-config-yyl-vue/commit/550a50676fb3522d23ca1c58af9096a17fcbd630))
+
 ### [0.2.9](https://github.com/ZhihaoLau/eslint-config-yyl-vue/compare/v0.2.8...v0.2.9) (2020-04-29)
 
 
