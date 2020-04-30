@@ -4,6 +4,14 @@ const obj = {
   '@': 2
 }
 
+const a =
+  obj.a === 'aserbasefsdfaserbasefsdfaserbasefsdfaserbasefsdf'
+    ? 2
+    : obj.b === 'aserbasefsdfaserbasefsdfaserbasefsdfaserbasefsdf'
+    ? 3
+    : 4
+const str = "a'bcde"
+
 switch (obj.a) {
   case 1:
     break
@@ -16,3 +24,8 @@ switch (obj.a) {
   default:
     break
 }
+
+new Promise(() => {
+  document.body.innerHTML = str
+  document.body.innerHTML = a
+}).catch(() => {})

@@ -9,7 +9,7 @@ export default {
   name: 'App',
   methods: {
     handleClick() {
-      console.log('blah')
+      // TODO:
     }
   }
 }
