@@ -32,7 +32,7 @@ yarn add eslint-config-yyl-vue prettier eslint -D
     "quoteProps": "consistent"
   },
   "scripts": {
-    "eslint": "eslint --ext=vue,js ./",
+    "eslint": "eslint --ext=vue,js ./src/",
     "prettier": "prettier --write ./**/*.{vue,js}"
   }
 }
