@@ -61,3 +61,12 @@ yarn add eslint-config-yyl-vue prettier eslint -D
 node_modules/
 dist/
 ```
+
+## VSCode 自动格式化
+在项目 `.vscode/settings.json` 添加：
+
+```
+{
+  "editor.formatOnSave": true
+}
+```
