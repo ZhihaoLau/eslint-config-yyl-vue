@@ -15,7 +15,7 @@ yarn add eslint-config-yyl-vue prettier eslint -D
   },
   "eslintIgnore": [
     "node_modules",
-    "/build"
+    "/build",
     "/dist",
     "/test",
     "**/js/lib"
