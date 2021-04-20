@@ -46,6 +46,6 @@
     "git-cz": "^4.3.1",
     "eslint": ">=6.6.0",
     "prettier": "^2.0.4",
-    "standard-version": "^7.1.0"
+    "standard-version": "^8.0.1"
   }
 }
